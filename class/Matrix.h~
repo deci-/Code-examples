@@ -1,0 +1,29 @@
+//Header ==> Function Declarations
+#include <iostream>
+
+using namespace std;
+
+const int N = 10;
+
+#ifndef MATRIX_H
+#define MATRIX_H
+
+class Matrix {
+public:
+  //Defaut constructor
+  Matrix();
+
+  //Overloaded constructor
+  Matrix(float[N][N],float[N][N],int[N]);
+
+  //Defaut destrucor
+  ~Matrix(); 
+  
+private:
+  //Member Variables
+ int size;
+ float newMatrix[N][N];
+
+};
+
+#endif
