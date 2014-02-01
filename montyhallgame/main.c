@@ -1,5 +1,8 @@
 #include "random_array.h"
-/*Monty Hall game simulation by Paulius Vaitkunas. Type in make monty to compile it and ./simulator.sh to run a simulation of 5 games(initially). You can change the number of simulations that you make and the choice of the door and wheather to switch in the simulator (see a comment in simulator.sh*/
+/*Monty Hall game simulation by Paulius Vaitkunas. Type in make monty to compile it and 
+./simulator.sh to run a simulation of 5 games(initially). You can change the number of simulations that 
+you make and the choice of the door and wheather to switch in the simulator (see a comment in simulator.sh*/
+
 int main (int argc, char *argv[]) 
 {
  char line[80], answer[3];
