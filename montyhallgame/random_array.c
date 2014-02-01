@@ -1,5 +1,6 @@
 #include "random_array.h"
-/*function fills in the array arr[] with two zeros and a one in random order. That's were the 'randomness' of the whole simulation cames from*/
+/*function fills in the array arr[] with two zeros and a one in random order. That's were the 
+'randomness' of the whole simulation cames from*/
 void random_array_function(int * arr1)
 {
  int j;
