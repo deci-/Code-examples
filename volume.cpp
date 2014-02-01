@@ -4,6 +4,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
+//approximates the volume of N-dimensional unit sphere using Monte Carlo
+
 
 //function prototypes
 float rand_point(float[],int);
