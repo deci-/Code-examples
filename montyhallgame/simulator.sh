@@ -1,6 +1,9 @@
 #!/bin/bash
 
-#A simulator for Monty Hall game by Paulius Vaitkunas. One full simulation simulates the actual game twice: once with answer 'yes' #and once with answer 'no' to and when it finishes the simulation it prints out the results from both cases and asks if you want to #run the simulation again. The c program exits with 0 if you win a car and with 1 if you win a goat and the shell script counts these #exit statuses. 
+#A simulator for Monty Hall game by Paulius Vaitkunas. One full simulation simulates the actual game twice: 
+#once with answer 'yes' #and once with answer 'no' to and when it finishes the simulation it prints out the results 
+#from both cases and asks if you want to #run the simulation again. The c program exits with 0 if you win a car 
+#and with 1 if you win a goat and the shell script counts these #exit statuses. 
 
 carcounter=0
 goatcounter=0
