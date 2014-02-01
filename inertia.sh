@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#BASH Shell script used along with intertia.cpp allows you to plot the crescent and create a file with datapoints used
 echo 'How many points would you like to simulate (up to 5000)?'
 read -a line
 numberofsimulations=${line[0]}
