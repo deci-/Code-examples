@@ -2,6 +2,8 @@
 #include <cmath>//cos,pow,atan
 #include <sys/time.h>//gettimeofday
 #include <stdlib.h>//srand
+//integrates two functions (one original and other is flat version of that funciton)
+//using Monte Carlo and compares the errors if requested
 
 //function prototypes
 float original_funct(float);
