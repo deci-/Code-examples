@@ -1,6 +1,0 @@
-Mesh 100
-Ground 0
-Line 0 99 0 1 -30
-Line 0 0 0 1 30
-Circle 49 49 10 0
-break
