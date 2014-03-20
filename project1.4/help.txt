@@ -1,0 +1,30 @@
+***************************
+***********HELP************
+***************************
+
+Mesh - size of your mesh, e.g Mesh 20 gives 20x20 mesh;
+Ground - ground potential value, eg Ground 0 sets ground to be at 0
+volts;
+***************************
+Circle - takes 4 arguments: x-origin, y-origin, radius and potential;
+Example: Circle 10 10 5 -10 creates a circle of radius 5 centered at
+(10,10) at potential -10;
+***************************
+Point - takes 3 arguments: x-origin, y-origin and potential;
+Example: Point 6 6 11 creates a point at (6,6) at potential 11
+***************************
+Rectangle - takes 5 arguments: x-origin of the top left corner,
+y-origin of the top-left corner, height, width and potential;
+Example: Rectangle 11 12 5 6 -10 creates a rectangle that has its
+top-left corner at (11,12), height 5 and width 6 at potential -10;
+***************************
+Line - takes 5 arguments: row, column, start, choice and potential;
+Example:
+***************************
+Random Shapes:
+Replace '#' symbols with any ASCII chars, i.e. 'draw' your shape. Then
+save and close that window and enter the potential of that
+shape. Repeat this process for each of your random shapes;
+
+
+---------------------------
